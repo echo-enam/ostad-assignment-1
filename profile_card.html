@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+     <style>
+        body{
+            background-image: url(img/bg-1.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .auto{margin: auto;}
+        .card{
+            width:375px;
+            height: 500px;
+            background: #f6fdff;
+            border-radius: 10px;
+            box-shadow: 1px 10px 10px #004a63;
+            border: 1px whitesmoke solid;
+        }
+        .tag{
+            width: 50px;
+            height: 22px;
+            background: #8a8a8a;
+            box-shadow: 0px -5px 1px #8a8a8a;
+            border-radius: 5px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+        
+        .picture{
+            margin-top: 0px;
+            width:160px;
+            height:165px;
+            background: white;
+            border-radius: 50%;
+            border: 4px rgb(255, 248, 248) solid;
+            box-shadow: 0px 5px 8px #004a63;
+        }
+        .picture img{       
+            position: absolute;     
+            height: 175px;
+            width: 160px;
+            border-radius: 50%;
+        }
+
+        .center{
+            text-align: center;
+        }
+        
+        .contact{
+            margin-top: 32px;
+            height: 92px;
+            background:url(img/bg-2.jpg) ;
+            border-radius: 0 0 8px 8px;
+            color: white;
+            font-size: 19px;
+            font-weight: 700;
+            text-shadow:1px 2px 5px rgb(34, 32, 32);
+        }
+        .contact a{
+            text-decoration: none;
+            color: white;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="tag"><b>PRO</b></div>
+        <div class="picture auto">
+            <img src="img/profile.jpg" alt="">
+        </div>
+        <div class="info center">
+            <h2>ENAMUL HOQUE</h2>
+            <h4 style="color: #6f6f6f;">Web Application Developer</h4>
+            <p style="color: #6f6f6f;">Hi I'm Proffessional Web App Developer with 6 Year reaching the satisfaction level of my clients through developing equitable software.</p>
+        </div>
+
+        <div class="contact center">
+            <p>Email: <a href="mailto:enamul.hoque.shl@proton.me">enamul.hoque.shl@proton.me</a></p>
+            <p>Phone: <a href="callto:+88019XXXXXXXX" >+88019XXXXXXX</a></p>
+        
+            
+        </div>
+
+    </div>
+</body>
+</html>
